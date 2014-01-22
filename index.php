@@ -20,10 +20,11 @@
   <h2>Crafty's Example</h2>
 
   <p>It is a simple example of Crafty game framework.</p>
+  
+  <div id="cr-stage"></div>
 
   <p class="controls">Controls: Use W, A, S, and D or arrow keys to move around.</p>
 
-  <div id="cr-stage"></div>
 
 </body>
 </html>

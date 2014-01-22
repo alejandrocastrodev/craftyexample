@@ -8,13 +8,19 @@ function random_color(){
 
 Game = {
 	start: function(){
+		
+		
 		Crafty.init(800, 400);
 		Crafty.background('rgb(10, 10, 10)');		
+	    //Crafty.timer.steptype("fixed", 1);
 
 	    Crafty.e('PlayerCharacter');
 	    Crafty.e('Aim');
-	    
-	    
+	   
+        Crafty.bind('EnterFrame', function(e) {
+	    	console.log("chau");
+        });
+	     
 	    
 
 	}
